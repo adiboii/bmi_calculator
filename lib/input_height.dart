@@ -121,7 +121,7 @@ class _InputHeightState extends State<InputHeight> {
                             ),
                       ),
                       Text(
-                        "$currentValue cm",
+                        "$currentValue CM",
                         style: Theme.of(context).textTheme.headline1,
                       ),
                       SizedBox(
@@ -151,7 +151,7 @@ class _InputHeightState extends State<InputHeight> {
                       arguments: {'height': currentValue});
                 },
                 child: Text(
-                  "Next",
+                  "NEXT",
                   style: Theme.of(context).textTheme.button?.copyWith(
                         fontSize: 12,
                         letterSpacing: 1,
