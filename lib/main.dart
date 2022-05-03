@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:bmi_calculator/landing_page.dart';
 import 'package:bmi_calculator/input_height.dart';
 import 'package:bmi_calculator/input_weight.dart';
+import 'package:bmi_calculator/results_page.dart';
 
 void main() => runApp(BMICalculator());
 
@@ -18,6 +19,7 @@ class BMICalculator extends StatelessWidget {
         '/': (context) => LandingPage(),
         '/input_height': (context) => InputHeight(),
         '/input_weight': (context) => InputWeight(),
+        '/results_page': (context) => ResultPage(),
       },
     );
   }
