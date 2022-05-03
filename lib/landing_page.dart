@@ -36,7 +36,9 @@ class LandingPage extends StatelessWidget {
               height: 30,
             ),
             TextButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, '/input_height');
+              },
               style: ButtonStyle(
                   padding: MaterialStateProperty.all<EdgeInsets>(
                     EdgeInsets.symmetric(horizontal: 70, vertical: 15),
